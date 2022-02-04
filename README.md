@@ -1,5 +1,5 @@
 # nodeMCU scaffold 
-This is just my Arduino scaffold, boilerplate or however you want to call it.
+This is just my Arduino scaffold, boilerplate or whatever you want to call it.
 
 I started just recently with a ESP32 Dev Kit V2 from AZ-Delivery and was amazed what was possible with almost no effort. But instead of just copy and pasting stuff from all over the internet, I wanted to get some structure into it... :)
 
@@ -9,6 +9,9 @@ I've build and prepared this within VS Code and the PlatformIO plugin. I liked t
 
 And now have fun.
 
+## Used Hardware
+I currently use ESP32 Dev Kit V2 boards from AZ-Delivery[3]
 # Links
 [1]: https://github.com/tzapu/WiFiManager
 [2]: https://devdrik.de/arduino-in-vs-code/
+[3]: https://www.az-delivery.de/products/esp32-developmentboard or amazon affiliate link: https://amzn.to/3rsTSUW
