@@ -84,6 +84,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  ArduinoOTA.handle();
-
+  if (WiFi.status() == WL_CONNECTED) {
+    ArduinoOTA.handle();
+  } else {
+    Serial.println("No WiFi connection");
+    delay(500);
+  }
 }
